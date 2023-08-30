@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+
+    .dadosPessoais{
+        padding: 2px;
+        
+
+    }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="dadosPessoais">
+        <fieldset>
+            <strong><label for="fname">Nome:</label></strong>
+            <input type="text" id="fname" name="fname" placeholder="Digite seu nome"><br>
+            <strong><label for="lname">Email:</label></strong>
+            <input type="text" id="lname" name="lname" placeholder="Digite seu Email"><br> 
+            <strong><label for="fname">Senha:</label></strong>
+            <input type="text" id="lname" name="lname" placeholder="Digite sua senha"><br><br>     
+        </fieldset>
+    </div>
+    <div>
+        <h2>Tipo de cadastro</h2>
+        <label for="male">Aluno:</label>
+        <input type="radio" id="aluno" name="opcao" value="opcaoA">
+        <label for="female">Servidor:</label>
+        <input type="radio" id="servidor" name="opcao" value="opcaoB">
+        <label for="other">Visitante:</label>
+        <input type="radio" id="visitante" name="opcao" value="opcaoC"><br>
+        
+    </div><br>
+    
+    <div>
+        <form action="#" method="get">
+            <strong><label for="linguagem">Câmpus da UTFPR</label></strong>
+            <select id="linguagens" name="linguagem">
+              <option selected disabled value="">Selecione</option>
+              <option value="campoMourao">Campo Mourão</option>
+              <option value="apucarana">Apucarana</option>
+              <option value="cornelio">Cornélio Procópio</option>
+              <option value="toledo">Toledo</option>
+              <option value="doisVizinhos">Dois Vizinhos</option>
+            </select>
+      
+    </div>
+	
+    <hr>
+    <h2>Disciplinas que cursa atualmente:</h2>
+    <input type="checkbox" id="ingles" name="lingua1" value="ingles">
+    <label for="ingles">Desenvolvimento Web 1</label><br>
+    <input type="checkbox" id="espanhol" name="lingua2" value="espanhol">
+    <label for="espanhol">Banco de Dados</label><br>
+    <input type="checkbox" id="espanhol" name="lingua2" value="espanhol">
+    <label for="espanhol"> IMC</label><br>
+    <input type="checkbox" id="espanhol" name="lingua2" value="espanhol">
+    <label for="espanhol">Espanhol</label><br>
+    <input type="checkbox" id="espanhol" name="lingua2" value="espanhol">
+    <label for="espanhol">Química</label><br>
+
+    <hr>
+
+    <h2>Quais são seus principais Hobbies?</h2>
+    <textarea name="digite aqui" rows="10" cols="30" placeholder="Digite seu comentário">
+    
+    </textarea>
+
+    <hr>
+
+    <hr>
+    <input type="submit" value="Enviar">
+	</form>
+    
+</body>
+</html>
