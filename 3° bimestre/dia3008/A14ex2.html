@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Messenger</title>
     <style>
-        div{
-            display: block;
-            border: 2px;
-            background-color: white;
+        body{
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
             
+            
+           
         }
         .enviar{
-            background-color: purple;
+            background-image: linear-gradient(to bottom left,purple,rgb(82, 3, 82),rgb(49, 0, 49));
             color: white;
         }
-        
+        .fundo{
+            border-radius: black 1px;
+            background-color: white;
+            width: 35vw;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+
+        }
+        .branco{
+            color: white;
+        }
 
     </style>
 </head>
@@ -28,15 +44,16 @@
                 <input type="text" id="fname" name="fname" placeholder="Digite seu nome">
                 <label for="email"></label>
                 <input type="text" id="femail" name="email" placeholder="Digite seu email"><br>
-                <label for="email"></label>
-                <input type="text" id="assunto" name="assunto" placeholder="Assunto"><br>
+                <label for="email"></label><br>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto" cols="50"><br>
+                <hr>
     
-                <textarea name="digite aqui" rows="10" cols="30" placeholder="Digite sua mensagem">
-            
-                </textarea>
+                <textarea name="digite aqui" rows="10" cols="50" placeholder="Digite sua mensagem"></textarea>
+                <hr class="branco">
+                <input type="submit" value="Enviar Mensagem" class="enviar">
             </fieldset>
             
-            <input type="submit" value="Enviar Mensagem" class="enviar">
+            
             
         </div>
     </div>

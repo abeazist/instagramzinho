@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interativa</title>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 48vw;
+            height: 95vh;
+            border: solid gray 5px;
+        }
+
+        .cadastro{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color: white;
+            width: 100%;
+            border: solid white 1%;
+            justify-content: center;
+        }
+        .entrar{
+            display: flex;
+            background-color:aquamarine ;
+            width: 100%;
+            color: white;
+            border: solid aquamarine 1px;
+            justify-content: center;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="entrar">
+            <h2>Welcome Back!</h2>
+            <h3>To keep conected with us please login with your personal info</h3>
+            <hr class="branco">
+                    <input type="submit" value="sign in" class="sign in">
+        </div>
+        <div class="cadastro">
+                <h2>Create Account</h2>
+                <h3>or use email for registration</h3>
+                <fieldset>
+                    <hr class="branco">
+                    <label for="nome"></label>
+                    <input type="text" id="fname" name="fname" placeholder="Digite seu nome">
+                    <hr class="branco">
+                    <label for="email"></label><br>
+                    <input type="text" id="femail" name="email" placeholder="Digite seu email">
+                    <hr class="branco">
+                    <label for="senha"></label><br>
+                    <input type="text" id="fsenha" name="senha" placeholder="Digite sua senha">
+
+                    <hr class="branco">
+                    <input type="submit" value="sign up" class="sign up">
+                    
+                </fieldset>
+        </div>
+    
+        
+    </div>
+    
+</body>
+</html>
